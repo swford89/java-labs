@@ -22,5 +22,14 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_11 {
+    public static void main(String[] args) {
 
+        for (int number = 1; number <= 10; number++){
+            for (int multiply = 1; multiply <= 10; multiply++){
+                System.out.print(number * multiply + " | ");
+            }
+            System.out.println("");
+        }
+
+    }
 }

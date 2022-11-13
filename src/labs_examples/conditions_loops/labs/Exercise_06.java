@@ -8,4 +8,22 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_06 {
+    public static void main(String[] args) {
+
+        int numSum = 0;
+        int counter = 1;
+
+        while(counter <= 100){
+            numSum += counter;
+            if(counter == 100){
+                break;
+            }
+            counter++;
+        }
+
+        System.out.println("The sum is: " + numSum);
+        System.out.println("Counter value: " + counter);
+        double numAverage = (double) numSum/ (double) counter;
+        System.out.println("The average: " + numAverage);
+    }
 }
