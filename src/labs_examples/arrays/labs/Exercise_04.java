@@ -10,4 +10,22 @@ package labs_examples.arrays.labs;
 
 public class Exercise_04 {
 
+    public static void main(String[] args) {
+
+        String[][] irregTwoDArray = {
+                {"Jared", "Tom", "Jeremy", "Johnny"},
+                {"Bird", "Cat", "Squirrel"},
+                {"Toyota", "Mitsubishi", "Honda", "Kia", "Subaru", "Ford"},
+                {"Coffee", "Tea"}
+        };
+
+        for(String[] array: irregTwoDArray){
+            for(String item: array){
+                System.out.print(" " + item + " ");
+            }
+            System.out.println(" ");
+        }
+
+    }
+
 }
