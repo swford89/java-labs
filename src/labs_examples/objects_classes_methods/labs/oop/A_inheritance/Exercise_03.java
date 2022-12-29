@@ -4,6 +4,9 @@ package labs_examples.objects_classes_methods.labs.oop.A_inheritance;
  * Why does the output print in the order it does?
  *
  * You answer:
+ * C_1 inherits from B_1 which inherits from A_1.
+ * Because of this, C_1 inherits both the A_1 and B_1 methods.
+ * the parent class methods are invoked first.
  *
  */
 
